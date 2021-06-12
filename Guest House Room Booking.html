@@ -10,7 +10,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script>
         function art() {
-            alert("Your request is submitted . Please continue.")
+            if (document.getElementById("adate").value != "" && document.getElementById("rdate").value != "" && document.getElementById("email").value != "" && document.getElementById("mobile").value != "") {
+                alert("Your request is submitted . Please continue.")
+            }
         }
     </script>
     <style>
